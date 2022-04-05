@@ -35,8 +35,10 @@
                                 echo '<div class="card-body">';
                                     echo '<h5 class="card-title">'.$row['name'].'</h5>';
                                     echo '<p class="card-text">'.$row['description'].' </p>';
-                                    echo '<a href="/adoptMe.php?id='.$row['id'].'" class="btn btn-primary">Adopt me</a>';
-                                echo '</div>';
+                                    echo '<a href="adoptMe.php?id='.$row['id'].'" class="btn btn-primary">Adopt me</a>';
+                                    echo '<a href="editPet.php?id='.$row['id'].'" class="btn btn-success">Edit</a>';
+                               
+                                    echo '</div>';
                             echo '</div>';
                         echo '</div>';
                     }
