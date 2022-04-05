@@ -65,7 +65,7 @@
             <div class="mb-3">
                 <input type="file" name="image" id="imageToUpload">
             </div>
-            <button type="submit" class="btn btn-primary">Update pet information</button>
+            <button type="submit" class="btn btn-primary">Delete Pet Info</button>
         </form>
     </div>
 
